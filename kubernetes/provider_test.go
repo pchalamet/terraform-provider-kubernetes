@@ -12,6 +12,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	"github.com/terraform-providers/terraform-provider-aws/aws"
+	"github.com/terraform-providers/terraform-provider-azurerm/azurerm"
 	"github.com/terraform-providers/terraform-provider-google/google"
 	api "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -26,6 +27,7 @@ func init() {
 		"kubernetes": testAccProvider,
 		"google":     google.Provider(),
 		"aws":        aws.Provider(),
+		"azurerm":    azurerm.Provider(),
 	}
 }
 
