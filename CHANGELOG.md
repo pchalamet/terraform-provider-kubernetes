@@ -1,4 +1,11 @@
-## 1.11.3 (Unreleased)
+## 1.11.4 (Unreleased)
+## 1.11.3 (May 20, 2020)
+
+IMPROVEMENTS:
+
+* Add data source for ingress (#514)
+* Add data sources for namespaces (#613)
+
 ## 1.11.2 (May 06, 2020)
 
 IMPROVEMENTS:
